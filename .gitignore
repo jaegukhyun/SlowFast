@@ -1,2 +1,35 @@
+*.pyc
+__pycache__
+.idea/
+.vscode/
+*.iml
+
+venv
+env
+.env
+
+data/*
+.coverage
+
 build/
-*.egg-info
+dist/
+*egg-info
+
+*.pth
+*.onnx
+*.xml
+*.bin
+*.mapping
+
+*.tar.gz
+*.zip
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# python version
+.python-version
+
+stdout.log
