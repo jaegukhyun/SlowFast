@@ -47,7 +47,7 @@ def build_model(cfg, gpu_id=None):
         try:
             import apex
         except ImportError:
-            raise ImportError("APEX is required for this model, pelase install")
+            raise ImportError("APEX is required for this model, please install")
 
         logger.info("Converting BN layers to Apex SyncBN")
         process_group = apex.parallel.create_syncbn_process_group(
